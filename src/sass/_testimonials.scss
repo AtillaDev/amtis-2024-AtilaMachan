@@ -1,0 +1,36 @@
+.testimonials {
+    display: flex;
+    padding: 7.5rem 5rem;
+    gap: 10rem;
+    &-tittle {
+        font-family: "Noto Serif", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 700;
+        font-size: 5rem;
+        gap: 3rem;
+        line-height: 80px;
+
+        h4 {
+            // width: 100%;
+        }
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 50%;
+        font-size: 1rem;
+        gap: 1.5rem;
+
+        &-author {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        &-description {
+        }
+    }
+}

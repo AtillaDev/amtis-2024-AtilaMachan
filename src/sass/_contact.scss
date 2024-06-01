@@ -1,0 +1,91 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $veryLightYellow;
+    padding: 5.875rem 0;
+
+    &-tittle {
+        font-family: "Noto Serif", sans-serif;
+        font-weight: 700;
+        line-height: 80px;
+        padding: 0 25rem;
+        text-align: center;
+        font-size: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    &-seperator {
+        padding-bottom: 0.5rem;
+    }
+
+    &-sub-tittle {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 5.5rem;
+    }
+
+    &-wrapper {
+        display: flex;
+        gap: 3.5rem;
+    }
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        &-type {
+            color: #6e6e6e;
+        }
+        &-info {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    &-form {
+        background-color: #f9eecd;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4rem 3rem;
+        font-size: 1rem;
+
+        &-label {
+            color: #000;
+            font-weight: 700;
+            padding-bottom: 0.5rem;
+        }
+
+        &-input {
+            padding: 0.75rem 1rem;
+            outline: none;
+            margin-bottom: 1rem;
+            border: 1px solid #e0e0e0;
+            border: 0;
+            width: 70%;
+        }
+
+        &-input-area {
+            padding: 0.75rem 1rem;
+            outline: none;
+            margin-bottom: 1rem;
+            border: 1px solid #e0e0e0;
+            border: 0;
+            resize: none;
+        }
+
+        &-submit {
+            padding: 0.5rem 1rem;
+            border-radius: 32px;
+            font-weight: 600;
+            line-height: 16px;
+            font-family: "Manrope", sans-serif;
+
+            background-color: $mainBrown;
+            color: $offWhite;
+        }
+    }
+}

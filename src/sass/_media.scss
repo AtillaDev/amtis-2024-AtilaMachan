@@ -1,0 +1,61 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9.5rem 22.5rem;
+    padding-bottom: 7.5rem;
+
+    &-tittle {
+        font-family: "Noto Serif", sans-serif;
+        font-weight: 700;
+        font-size: 5rem;
+        padding-bottom: 3rem;
+        line-height: 80px;
+    }
+
+    &-seperator {
+        padding-bottom: 5rem;
+    }
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        padding-bottom: 5rem;
+
+        &-intro {
+            text-transform: uppercase;
+            font-size: 0.6875rem;
+            color: #1e1e1e;
+        }
+
+        &-tittle {
+            font-family: "Noto Serif", sans-serif;
+            font-size: 3.125rem;
+            line-height: 50px;
+            padding-bottom: 1.125rem;
+        }
+
+        &-epilogue {
+            padding-bottom: 2rem;
+            font-size: 0.8125rem;
+        }
+
+        &-text {
+            line-height: 24px;
+            padding-bottom: 4rem;
+        }
+
+        &-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 32px;
+            font-weight: 600;
+            line-height: 16px;
+            font-family: "Manrope", sans-serif;
+
+            background-color: $mainBrown;
+            color: $offWhite;
+        }
+    }
+}

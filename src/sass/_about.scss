@@ -1,0 +1,27 @@
+.about {
+    padding: 0 15rem;
+    padding-bottom: 5.875rem;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+    &-tittle {
+        font-family: "Noto Serif", sans-serif;
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 80px;
+    }
+
+    // &-description {
+    // }
+}
