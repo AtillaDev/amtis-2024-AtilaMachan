@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="bg">
+<!-- !!!! -->
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
 
@@ -143,8 +144,194 @@
     </head>
 
     <body>
-        <div id="app">Започни работа тук. Успех! :) asdsadsgfdsf</div>
+        <header>
+            <nav id="nav" class="nav">
+                <div class="nav-logo">
+                    <picture>
+                        <img
+                            src="/images/krystallino-logo.png"
+                            alt="site logo"
+                        />
+                    </picture>
+                </div>
 
-        <script type="module" src="/src/js/main.js"></script>
+                <button
+                    id="hamburgerBtn"
+                    class="nav-hamburger"
+                    onclick="openHamburger()"
+                >
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-mid"></span>
+                    <span class="hamburger-bot"></span>
+                </button>
+
+                <ul id="navMenu" class="nav-menu not-visible">
+                    <li class="nav-menu-link">
+                        <a href="#">Connect</a>
+                    </li>
+                    <li class="nav-menu-link">
+                        <a href="#">Connect</a>
+                    </li>
+                    <li class="nav-menu-link">
+                        <a href="#">Connect</a>
+                    </li>
+                    <li class="nav-menu-link">
+                        <a href="#">Connect</a>
+                    </li>
+                </ul>
+
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#">Нашите десерти</a></li>
+                    <li><a class="nav-link" href="#">Отзиви</a></li>
+                    <li>
+                        <a class="nav-link" href="#">За поръчки и запитвания</a>
+                    </li>
+                    <li><a class="nav-link" href="#">Препоръки</a></li>
+                    <li><a class="nav-link" href="#">Медиите за нас</a></li>
+                    <li><a class="nav-link" href="#">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <section class="hero page-content">
+                <h1 class="hero-tittle">
+                    Десерти Kristallino – където
+                    <span class="darker-text"> изкуството</span> среща
+                    <span class="darker-text"> десерта</span>.
+                </h1>
+                <p class="hero-text">
+                    Отдайте се на нашите изящни творения, изработени със страст
+                    и прецизност от световноизвестния сладкар Кристалин Илиев.
+                    Разгледайте нашите иновативни десерти, които обещават да
+                    измамят вкусовите ви рецептори и да запалят сетивата ви.
+                </p>
+                <div class="hero-btns">
+                    <button class="hero-btn">
+                        <a href="#">Направи заявка </a></button
+                    ><button class="hero-btn">
+                        <a href="#">Научи повече</a>
+                    </button>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="desserts">
+                <div class="dessert">
+                    <picture>
+                        <img
+                            class="dessert-image"
+                            src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png"
+                            alt="dessert image"
+                        />
+                    </picture>
+                    <img
+                        class="dessert-seperator"
+                        src="/images/Sub Title Element.png"
+                        alt=""
+                    />
+                    <h4 class="dessert-tittle">Ягоди и босилек</h4>
+                    <p class="dessert-text">
+                        Отпразнувайте същността на лятото със зрели ягоди,
+                        съчетани с ароматен босилек, освежаващо удоволствие за
+                        небцето.
+                    </p>
+                    <a class="dessert-link" href="#">НАУЧЕТЕ ПОВЕЧЕ</a>
+                </div>
+                <div class="dessert">
+                    <picture>
+                        <img
+                            class="dessert-image"
+                            src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png"
+                            alt="dessert image"
+                        />
+                    </picture>
+                    <img
+                        class="dessert-seperator"
+                        src="/images/Sub Title Element.png"
+                        alt=""
+                    />
+                    <h4 class="dessert-tittle">Ягоди и босилек</h4>
+                    <p class="dessert-text">
+                        Отпразнувайте същността на лятото със зрели ягоди,
+                        съчетани с ароматен босилек, освежаващо удоволствие за
+                        небцето.
+                    </p>
+                    <a class="dessert-link" href="#">НАУЧЕТЕ ПОВЕЧЕ</a>
+                </div>
+                <div class="dessert">
+                    <picture>
+                        <img
+                            class="dessert-image"
+                            src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png"
+                            alt="dessert image"
+                        />
+                    </picture>
+                    <img
+                        class="dessert-seperator"
+                        src="/images/Sub Title Element.png"
+                        alt=""
+                    />
+                    <h4 class="dessert-tittle">Ягоди и босилек</h4>
+                    <p class="dessert-text">
+                        Отпразнувайте същността на лятото със зрели ягоди,
+                        съчетани с ароматен босилек, освежаващо удоволствие за
+                        небцето.
+                    </p>
+                    <a class="dessert-link" href="#">НАУЧЕТЕ ПОВЕЧЕ</a>
+                </div>
+                <div class="dessert">
+                    <picture>
+                        <img
+                            class="dessert-image"
+                            src="/images/Firefly Strawberry and basil with cream desert on a white background 59251.png"
+                            alt="dessert image"
+                        />
+                    </picture>
+                    <img
+                        class="dessert-seperator"
+                        src="/images/Sub Title Element.png"
+                        alt=""
+                    />
+                    <h4 class="dessert-tittle">Ягоди и босилек</h4>
+                    <p class="dessert-text">
+                        Отпразнувайте същността на лятото със зрели ягоди,
+                        съчетани с ароматен босилек, освежаващо удоволствие за
+                        небцето.
+                    </p>
+                    <a class="dessert-link" href="#">НАУЧЕТЕ ПОВЕЧЕ</a>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about-wrapper">
+                    <img
+                        class="about-image"
+                        src="/images/Rectangle 22.png"
+                        alt="chef image"
+                    />
+                    <div class="about-text">
+                        <h4 class="about-text-tittle">Chef Кристалин</h4>
+                        <img
+                            src="/images/Sub Title Element.png"
+                            alt="seperator"
+                        />
+                        <p class="about-text-description">
+                            Шеф Кристалин Илиев е световноизвестен сладкар,
+                            известен със своите иновативни и артистични творения
+                            на десерти. С повече от две десетилетия опит, той
+                            съчетава традиционни техники с модерни вкусове,
+                            завладявайки кулинарния свят чрез своята марка
+                            Krystallino. Уникалните десерти на шеф Кристалин,
+                            като кисело мляко с орехи и мед или бекон с
+                            боровинки, отразяват неговата отдаденост на
+                            качеството и креативността, спечелвайки й
+                            международно признание и лоялни последователи.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+
+        <script src="/src/js/main.js"></script>
+        <script src="/src/js/fetchData.js"></script>
     </body>
 </html>

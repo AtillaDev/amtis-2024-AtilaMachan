@@ -1,0 +1,90 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $mainBrown;
+    font-family: "Manrope", sans-serif;
+    background-color: $offWhite;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 2rem 5rem;
+}
+
+.nav-hamburger {
+    padding: 1rem;
+    z-index: 10;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    //   cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+
+    @include desktop {
+        display: none;
+    }
+
+    .hamburger-top,
+    .hamburger-mid,
+    .hamburger-bot {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+
+        transform: rotate(0);
+        transition: all 0.5s;
+    }
+
+    .hamburger-mid {
+        transform: translateY(10px);
+    }
+
+    .hamburger-bot {
+        transform: translateY(20px);
+    }
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-bot {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.open .hamburger-mid {
+    opacity: 0;
+}
+
+.nav-links {
+    display: none;
+
+    @include desktop {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.nav-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    gap: 1rem;
+    background-color: rgba($color: #7b95e4, $alpha: 0.3);
+}
