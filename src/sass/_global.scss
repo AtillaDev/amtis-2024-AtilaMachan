@@ -128,3 +128,14 @@ select {
 .bold-text {
     font-weight: 700 !important;
 }
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: $mainBrown;
+}
+
+::selection {
+    color: #fff;
+    background: $mainBrown;
+}

@@ -22,6 +22,18 @@
     font-weight: 700;
     line-height: 80px;
     color: $mainBrown;
+    position: relative;
+
+    .basil {
+        position: absolute;
+        top: 25%;
+        right: -5%;
+    }
+    .strawberry {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
 }
 
 .darker-text {
@@ -48,11 +60,20 @@
     &:first-child {
         background-color: $mainBrown;
         color: $offWhite;
+
+        &:hover {
+            background-color: #67391c;
+        }
     }
 
     &:last-child {
         background-color: $offWhite;
         border: 1px solid $lightBrown;
         color: $lightBrown;
+
+        &:hover {
+            background-color: #67391c;
+            color: #fff;
+        }
     }
 }

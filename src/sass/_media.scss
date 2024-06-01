@@ -4,6 +4,19 @@
     align-items: center;
     padding: 9.5rem 22.5rem;
     padding-bottom: 7.5rem;
+    position: relative;
+
+    &-leaf1 {
+        position: absolute;
+        left: -8%;
+        top: -5%;
+        height: 300px;
+    }
+    &-leaf2 {
+        position: absolute;
+        top: 50%;
+        right: -5%;
+    }
 
     &-tittle {
         font-family: "Noto Serif", sans-serif;
